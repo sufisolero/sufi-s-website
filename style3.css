@@ -1,0 +1,100 @@
+        body {
+		    background-image: url('bg3.jpg');
+            font-family: Poppins, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 10px;
+        }
+		.navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+			font-size: 15px;
+        }
+        .navbar a:hover {
+            background-color: #007BFF;
+	    }
+		
+		header {
+            background-color: none;
+            color: black;
+            text-align: center;
+            padding: 15px 0;
+		}
+		header h1 {
+            margin: 20px;
+            font-size: 2em;
+			margin-bottom: 1px;
+        }
+		main {
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+		
+		/* Experience Section */
+        #experience {
+            margin-bottom: 10px;
+        }
+		.experience-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid black; 
+            background: #f7f5e0;
+            border-radius: 5px;
+            gap: 15px;
+        }
+        .experience-logo {
+            width: 300px;
+            height: 300px;
+            border-radius: 30%;
+            object-fit: cover;
+			padding-left: 30px;
+        }
+        .experience-content {
+            flex: 1;
+        }
+        .experience-content h2 {
+            color: black;
+            margin: 0 0 5px;
+        }
+        .experience-content .company {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+		}
+		.experience-content ul {
+            list-style-type: disc;
+            margin: 0;
+            padding-left: 70px;
+        }
+        .experience-content ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Footer Styles */
+        footer {
+           text-align: center;
+           margin-top: 20px;
+		   padding: 10px 0;
+           background-color: black;
+           color: white;
+           font-size: 14px;
+        }
