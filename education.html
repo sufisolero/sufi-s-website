@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sufi's Education</title> 
+    <style>
+         body {
+		    background-image: url('bg3.jpg');
+            font-family: Poppins, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 10px;
+        }
+		.navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+			font-size: 15px;
+        }
+        .navbar a:hover {
+            background-color: #007BFF;
+	    }
+		
+		main {
+            padding: 80px;
+            max-width: 1200px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        /* Table Styles */
+            table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        thead {
+            background-color: #d8c49b;
+            color: black;
+        }
+        thead th {
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+			border: 1px solid black;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f7f5e0;
+        } 
+        tbody td {
+            padding: 10px;
+            text-align: left;
+            vertical-align: middle;
+            border: 0.1px solid black;
+			background-color: #f7f5e0;
+        }
+
+        /* Image Styles */
+        .institution-logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+			padding-left: 50px;
+        }
+       
+		/* Footer Styles */
+        footer {
+           text-align: center;
+           margin-top: 20px;
+		   padding: 10px 0;
+           background-color: black;
+           color: white;
+           font-size: 14px;
+        } 
+	</style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home Page</a>
+        <a href="about me.html">About Me</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="achievement.html">Achievement</a>
+		<a href="gallery.html">Gallery</a>
+    </div>
+
+    <main>
+        <section id="education">
+            <h2>❤︎ 𝐻𝐸𝑅𝐸 𝑀𝒴 𝐸𝒟𝒰𝒞𝒜𝒯𝐼𝒪𝒩 𝒥𝒪𝒰𝑅𝒩𝐸𝒴 𝐵𝐸𝒢𝐼𝒩 ! ❤︎</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Institution Logo / Picture</th>
+                        <th>Institution Name</th>
+                        <th>Year</th>
+                        <th>Qualification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Kindergarten -->
+                    <tr>
+                        <td><img src="LOGO.jpg" alt="Kindergarten" class="institution-logo"></td>
+                        <td>Tadika Alfa Bestari, Sungai Besar, Selangor </td>
+                        <td>2008 - 2010</td>
+                        <td>Kindergarten</td>
+                    </tr>
+                    <!-- Primary School -->
+                    <tr>
+                        <td><img src="LOGO1.jpg" alt="Primary School" class="institution-logo"></td>
+                        <td>Sekolah Kebangsaan Parit 6, Sungai Besar, Selangor</td>
+                        <td>2011 - 2016</td>
+                        <td>Ujian Pencapaian Sekolah Rendah (UPSR)</td>
+                    </tr>
+                    <!-- Secondary School -->
+                    <tr>
+                        <td><img src="LOGO2.jpg" alt="Secondary School" class="institution-logo"></td>
+                        <td>Sekolah Menengah Kebangsaan Sungai Besar, Selangor</td>
+                        <td>2017 - 2022</td>
+                        <td><p> Pentaksiran Tingkatan 3 (PT3)<p> Sijil Peperiksaan Malaysia (SPM)</td>					
+                    </tr>
+					<!-- University -->
+                    <tr>
+                        <td><img src="LOGO3.jpg" alt="University" class="institution-logo"></td>
+                        <td>Universiti Teknologi MARA (UiTM), Cawangan Kelantan</td>
+                        <td>2022 - 2025</td>
+                        <td>Diploma in Information Management</td>					
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+		
+		<audio controls align="center" width="5%">
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+    
+	<!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Sufi Sofea]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
